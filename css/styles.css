@@ -1,0 +1,179 @@
+.col-lg-6{
+} 
+ 
+
+ h1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 2; 
+    color: antiquewhite;
+    margin-bottom: 6%;
+    position: flex;
+}
+body{
+    background-color: #FF4C68;
+    position: relative;
+}
+
+
+/**************************************************testimonials*************************************************/
+h2{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 2;
+    color: #fff;
+    margin-bottom: 3%;
+
+}
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3% 15% 5% 15%;
+    margin-top: 2%;
+
+    
+}
+.testimonials-image{
+    border-radius: 100%;
+    width: 10%;
+    margin-bottom: 5%;
+}
+.button-width{
+    width: 100%;
+}
+
+/***************press***************/
+
+#press{
+    background-color: #EF8172;
+    padding: 3% 15% 5% 15%;
+    text-align: center;
+    position: relative;
+}
+.press-photo{
+    width: 14%;
+}
+.card-body{
+    height: 250px;
+}
+#carouselcontrol{
+position: relative;
+
+}
+
+
+/***************class***************/
+.inline-block{
+    display: inline-block;
+}
+.container-fluid{
+    padding: 3% 15% 0 15%;
+}
+.imgdogbefore{
+    text-align: center;
+}
+.dog{
+    position: absolute;
+
+    transform: rotate(20deg) translateX(-130px) translateY(40px);
+    height: 600px;
+    margin-top: 0%;
+    margin-bottom: 10%;
+
+}
+.dogpart{
+    width: 50%;
+    padding: 60px 0;
+
+}
+
+@media (max-width: 992px) {
+    .dog{
+        position: relative;
+        transform: rotate(0deg) translateX(00px) translatey(0px);;
+       
+
+    }
+    .dogpart{
+        width: 100%;
+        text-align: center;
+    }
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    font-weight: 400;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+.center{
+    text-align: center;
+}
+.p-section2{
+    padding: 0 60px;
+
+}
+.color-features-icons {
+    color: #ef8172;
+    font-size: 400%;
+    margin-bottom: 20px;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+.color-features-icons:hover{
+    color: #ff4c68;
+}
+.pad{
+    padding: 0 2%;
+}
+
+/***************id***************/
+#title{
+    background-color: #ff4c68;
+}
+#features{ overflow: hidden;
+    background-color: aliceblue;
+    padding: 5%;
+    position: relative;
+
+}
+#pricing{
+    text-align: center;
+    position: relative;
+    background-color: aliceblue;
+    padding-bottom: 6%;
+}
+/**********************************************************/
+
+#cta{
+    text-align: center;
+    padding: 2.5% 20%;
+}
+.h3last{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1; 
+    color: rgb(255, 255, 255);
+    margin-bottom: 6%;
+    position: flex;
+    
+}
+.btn{
+    margin: 0 1.5%;
+}
+
+/********************************************************************************/
+#footer{
+    background-color: #fff;
+    height: 75px;
+    text-align: center;
+}
+.copyrights{
+    color: rgb(171, 170, 170);
+}
+.i{
+    padding: 1% 0.3%;
+}
+
